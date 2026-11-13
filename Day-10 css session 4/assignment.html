@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day 10 css Ass</title>
+    <style>
+      * {
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      body {
+        background-color: #f4f6f8;
+        color: #222222;
+        line-height: 1.5;
+      }
+      .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 16px 40px;
+        border-bottom: 1px solid black;
+      }
+      .logo {
+        font-size: 24px;
+        font-weight: bold;
+        letter-spacing: 1px;
+      }
+
+      .nav-links {
+        display: flex;
+        list-style: none;
+        gap: 24px;
+      }
+      .nav-links a {
+        text-decoration: none;
+        color: #111111;
+        font-size: 16px;
+        font-weight: 500;
+      }
+      .nav-links a:hover {
+        color: #38bdf8;
+      }
+
+      .product-grid {
+        display: flex;
+        flex-wrap: wrap; /* Moves cards to the next line automatically */
+        justify-content: center;
+        gap: 24px; /* Proper spacing between cards */
+      }
+
+      .card {
+        width: 260px;
+        background-color: #ffffff;
+        border: 1px solid #cbd5e1;
+        border-radius: 8px;
+        padding: 16px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+      .product {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 24px;
+      }
+      .card img {
+        width: 100%;
+        height: 180px;
+        object-fit: cover;
+        border-radius: 6px;
+        margin-bottom: 12px;
+      }
+      .product-title {
+        font-size: 18px;
+        font-weight: 600;
+        color: #1e293b;
+        margin-bottom: 8px;
+      }
+      .product-price {
+        font-size: 20px;
+        font-weight: bold;
+        color: #16a34a;
+        margin-bottom: 14px;
+      }
+      .buy-btn {
+        background-color: #2563eb;
+        color: #ffffff;
+        border: none;
+        padding: 10px 16px;
+        font-size: 15px;
+        font-weight: 600;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      .buy-btn:hover {
+        background-color: #1d4ed8;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="logo">VK.BRAND</div>
+      <div class="nav-links">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Courses</a>
+        <a href="#">Contact</a>
+      </div>
+    </nav>
+    <div class="product">
+      <!-- <p> PRODUCT 1 </p> -->
+      <div class="card">
+        <img src="./images (1).jpeg" alt="tshirt images" />
+        <h2 class="product-title">T shirt</h2>
+        <p class="product-price">349 Rs</p>
+        <button class="buy-btn">Buy Now</button>
+      </div>
+      <!-- <p> PRODUCT 2 </p> -->
+      <div class="card">
+        <img src="./images (2).jpeg" alt="tshirt image" />
+        <h2 class="product-title">T Shirt</h2>
+        <p class="product-price">399</p>
+        <button class="buy-btn">Buy Now</button>
+      </div>
+      <!-- <p> PRODUCT 3</p> -->
+      <div class="card">
+        <img src="./images (3).jpeg" alt="tshirt image" />
+        <h2 class="product-title">T Shirt</h2>
+        <p class="product-price">401</p>
+        <button class="buy-btn">Buy Now</button>
+      </div>
+
+      <!-- <p> PRODUCT 4</p> -->
+      <div class="card">
+        <img src="./images (4).jpeg" alt="tshirt image" />
+        <h2 class="product-title">T Shirt</h2>
+        <p class="product-price">351</p>
+        <button class="buy-btn">Buy Now</button>
+      </div>
+
+      <!-- <p> PRODUCT 5 </p> -->
+      <div class="card">
+        <img src="./images (5).jpeg" alt="tshirt image" />
+        <h2 class="product-title">T Shirt</h2>
+        <p class="product-price">449</p>
+        <button class="buy-btn">Buy Now</button>
+      </div>
+
+      <!-- <p> PRODUCT 6 </p> -->
+      <div class="card">
+        <img src="./images (6).jpeg" alt="tshirt image" />
+        <h2 class="product-title">T Shirt</h2>
+        <p class="product-price">451</p>
+        <button class="buy-btn">Buy Now</button>
+      </div>
+      <!-- <p> PRODUCT 7 </p> -->
+      <div class="card">
+        <img src="./images (7).jpeg" alt="tshirt image" />
+        <h2 class="product-title">T Shirt</h2>
+        <p class="product-price">499</p>
+        <button class="buy-btn">Buy Now</button>
+      </div>
+      <!-- <p> PRODUCT 8 </p> -->
+      <div class="card">
+        <img src="./images (8).jpeg" alt="tshirt image" />
+        <h2 class="product-title">T Shirt</h2>
+        <p class="product-price">501</p>
+        <button class="buy-btn">Buy Now</button>
+      </div>
+    </div>
+  </body>
+</html>
