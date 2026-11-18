@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width>, initial-scale=1.0" />
+    <title>Day 12 css pt2</title>
+    <style>
+      * {
+        margin: 0%;
+        padding: 0%;
+      }
+      body {
+        /* font-family: Arial, Helvetica, sans-serif; */
+        /* padding: 20px; */
+      }
+      .container {
+        display: flex;
+        gap: 20px;
+        height: 80vh;
+      }
+      .sidebar {
+        padding: 20px;
+      }
+      .main-content {
+        padding: 20px;
+      }
+      @media (max-width: 768px) {
+        .container {
+          flex-direction: column;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <aside class="sidebar">
+        <h2>Sidebar</h2>
+        <p>Navigation Or Profile Menu Item Go Here</p>
+      </aside>
+      <main class="main-content">
+        <h2>Main Content</h2>
+        <p>Main Page Details And Content G here</p>
+      </main>
+    </div>
+  </body>
+</html>
