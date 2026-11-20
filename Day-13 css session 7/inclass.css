@@ -9,11 +9,27 @@
   height: 100vh;
   width: 100%;
 }
-#navbox{
-    border: 5px solid yellowgreen;
-    width: 100%;
-    height: 70px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+#navbox {
+  border: 5px solid yellowgreen;
+  width: 100%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#logocnt {
+  border: 3px solid black;
+  width: 8%;
+}
+#navicnt {
+  border: 3px solid black;
+  width: 34%;
+}
+#searchcnt {
+  border: 3px solid black;
+  width: 34%;
+}
+#profilecnt {
+  border: 3px solid black;
+  width: 14%;
 }
