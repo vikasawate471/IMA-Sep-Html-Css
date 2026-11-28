@@ -6,19 +6,23 @@
 }
 
 #maincnt {
-  border: 10px solid brown;
+  border: 5px solid brown;
   height: 100vh;
   width: 100%;
 }
 #navcnt {
-  border: 4px solid black;
+  border: 3px solid black;
   width: 100%;
   height: 70px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 .navcntlogo {
   color: blue;
   font-weight: bold;
+
+}
+.navcnseh{
+
 }
